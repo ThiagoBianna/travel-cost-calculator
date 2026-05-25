@@ -1,3 +1,5 @@
+// This file was developed with assistance from Gemini to refine logic, fix bugs, and refactor variable names,
+// in accordance with CS50's academic honesty guidelines regarding AI tools.
 package com.VaiDarQuanto.api.controller;
 
 import com.VaiDarQuanto.api.dto.CalculoRequest;
