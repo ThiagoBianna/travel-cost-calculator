@@ -50,6 +50,8 @@ This project was developed with the support
 of Gemini for code refactoring and logic optimization,
 following CS50’s academic honesty policy.
 
-Developer
+Acknowledgments and Final Considerations
+I would like to express my deepest gratitude to the entire CS50x staff and Harvard University for providing this incredible, high-quality educational journey. This final project represents the culmination of months of hard work, continuous learning, and intense dedication to software engineering principles, transforming my technical skills completely.
 
+Developer
 Thiago Bianna Pessanha da Cruz, Software Engineering Student at UNINTER.
