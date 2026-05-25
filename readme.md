@@ -1,57 +1,54 @@
-![Tela do Projeto](./img/preview.png)
-
-Vai dar quanto? — Calculadora de custo de Viagens
-
-Vídeo Demo: [https://www.youtube.com/watch?v=mlD8NEZ2jhg]
-
-🔗deploy: [https://vai-dar-quanto-web-front.onrender.com/]
-⚠️ Nota sobre o acesso: Este projeto está hospedado no plano gratuito do Render. Por isso, o site pode estar inativo por algum tempo. O primeiro cálculo pode levar cerca de 30-40 segundos para "acordar" o container. Agradeço a paciência!
-
-O "Vai dar quanto?" é uma aplicação completa (Full-Stack) projetada para ajudar motoristas a estimarem o custo real de combustível em seus trajetos. Utilizando integrações com a Google Maps API, o sistema calcula a distância precisa entre dois pontos e aplica regras de negócio inteligentes, como alertas para horários de maior consumo (pico).
- 
-Funcionalidades Principais
-
-    Cálculo Preciso: Integração com Google Distance Matrix API para quilometragem exata.
-
-    Autocomplete de Endereços: Busca inteligente de locais via Google Places API.
-
-    Suporte a Múltiplos Combustíveis: Cálculos específicos para Gasolina, Etanol, Diesel e GNV.
-
-    Consumo Inteligente: Exibição de médias em km/L e km/m³ (para GNV).
-
-    Alerta de Horário de Pico: Sistema que identifica horários comerciais e sugere que o consumo pode ser maior.
+e aqui?
 
 
- Tecnologias Utilizadas
 
-    Frontend: React (Vite), Styled Components/CSS dinâmico.
+"Vai dar quanto?" — Trip Cost Calculator
 
-    Backend: Java 17+, Spring Boot, PostgreSQL, Docker.
+🔗 Deploy: https://vai-dar-quanto-web-front.onrender.com/ ⚠️ Note on access: This project is hosted on Render's free tier. Therefore, if the site has been inactive for a while, the first access may take about 30-40 seconds to "wake up" the container. Thank you for your patience!
 
-    APIs: Google Maps (Distance Matrix, Autocomplete e Places).
+"Vai dar quanto?" is a full-stack application designed to help drivers estimate the real fuel cost of their trips. Using integrations with the Google Maps API, the system calculates the precise distance between two points and applies intelligent business rules, such as alerts for high-consumption (peak) hours. Key Features
 
-Como rodar o projeto
+Accurate Calculation: Integration with Google Distance Matrix API for exact mileage.
 
-Como o projeto utiliza variáveis de ambiente para segurança, você precisará configurar as chaves de API localmente.
+Address Autocomplete: Intelligent location search via Google Places API.
 
-    Clone o repositório:
-    Bash
+Multiple Fuel Support: Specific calculations for Gasoline, Ethanol, Diesel, and CNG (GNV).
 
-    git clone https://github.com/seu-usuario/vai-dar-quanto.git
+Smart Consumption: Display of averages in km/L and km/m³ (for CNG).
 
-    Configuração do Frontend:
+Peak Hour Alert: System that identifies business hours and suggests that consumption may be higher.
+Technologies Used
 
-        Crie um arquivo .env na raiz da pasta frontend.
+Frontend: React (Vite), Styled Components/Dynamic CSS.
 
-        Adicione sua chave: VITE_GOOGLE_MAPS_API_KEY=sua_chave_aqui.
+Backend: Java 17+, Spring Boot, PostgreSQL, Docker.
 
-    Configuração do Backend:
+APIs: Google Maps (Distance Matrix and Places).
+How to run the project
 
-        Garanta que o seu banco de dados PostgreSQL esteja rodando.
+Since the project uses environment variables for security, you will need to configure the API keys locally.
 
-        Configure as credenciais no application.properties.
+Clone the repository:
+Bash
 
-Desenvolvedor
+git clone https://github.com/ThiagoBianna/travel-cost-calculator.git
 
-Thiago Bianna Pessanha da Cruz
-Estudante de Engenharia de Software
+Frontend Configuration:
+
+    Create a .env file in the root of the frontend folder.
+
+    Add your key: VITE_GOOGLE_MAPS_API_KEY=your_key_here.
+
+Backend Configuration:
+
+    Ensure your PostgreSQL database is running.
+
+    Configure the credentials in application.properties.
+
+This project was developed with the support
+of Gemini for code refactoring and logic optimization,
+following CS50’s academic honesty policy.
+
+Developer
+
+Thiago Bianna Pessanha da Cruz, Software Engineering Student at UNINTER.
