@@ -1,6 +1,4 @@
-e aqui?
-
-
+![Tela do Projeto](./img/preview.png)
 
 "Vai dar quanto?" — Trip Cost Calculator
 
@@ -18,6 +16,9 @@ Smart Consumption: Display of averages in km/L and km/m³ (for CNG).
 
 Peak Hour Alert: System that identifies business hours and suggests that consumption may be higher.
 Technologies Used
+
+Project Architecture
+The application is structured into an independent frontend and backend ecosystem. The frontend consumes the REST API built with Spring Boot, which handles the core logic and safely stores user data. Both services are fully containerized using Docker, allowing easy deployment and scalability in production environments.
 
 Frontend: React (Vite), Styled Components/Dynamic CSS.
 
